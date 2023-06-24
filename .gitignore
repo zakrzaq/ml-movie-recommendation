@@ -1,0 +1,17 @@
+# systems and apps
+.vscode/
+.stignore
+.env
+.env.test
+.env.prod
+env/
+venv/
+
+# python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Project specific
+*_config.py
+configs/
