@@ -1,0 +1,63 @@
+user_id,movie_id,movie_title,rating
+1,101,The Shawshank Redemption,4.5
+1,102,The Godfather,3.5
+1,103,Pulp Fiction,4.0
+2,101,The Shawshank Redemption,2.5
+2,102,The Godfather,4.5
+2,103,Pulp Fiction,3.0
+2,104,The Dark Knight,4.0
+3,101,The Shawshank Redemption,3.0
+3,104,The Dark Knight,3.5
+3,105,Fight Club,4.0
+4,101,The Shawshank Redemption,4.5
+4,103,Pulp Fiction,2.5
+4,104,The Dark Knight,4.0
+4,105,Fight Club,3.5
+4,106,Inception,4.5
+5,101,The Shawshank Redemption,3.5
+5,102,The Godfather,4.0
+5,105,Fight Club,4.5
+6,102,The Godfather,3.0
+6,103,Pulp Fiction,3.5
+6,104,The Dark Knight,4.0
+6,106,Inception,2.5
+7,101,The Shawshank Redemption,4.0
+7,105,Fight Club,3.5
+7,106,Inception,4.5
+8,102,The Godfather,4.0
+8,103,Pulp Fiction,4.5
+8,104,The Dark Knight,3.5
+8,106,Inception,4.0
+9,101,The Shawshank Redemption,3.5
+9,102,The Godfather,4.0
+9,105,Fight Club,4.5
+10,103,Pulp Fiction,3.0
+10,104,The Dark Knight,3.5
+10,105,Fight Club,4.0
+10,106,Inception,4.5
+11,101,The Shawshank Redemption,4.5
+11,102,The Godfather,3.5
+11,103,Pulp Fiction,4.0
+12,101,The Shawshank Redemption,2.5
+12,102,The Godfather,4.5
+12,103,Pulp Fiction,3.0
+12,104,The Dark Knight,4.0
+13,101,The Shawshank Redemption,3.0
+13,104,The Dark Knight,3.5
+13,105,Fight Club,4.0
+14,101,The Shawshank Redemption,4.5
+14,103,Pulp Fiction,2.5
+14,104,The Dark Knight,4.0
+14,105,Fight Club,3.5
+14,106,Inception,4.5
+15,101,The Shawshank Redemption,3.5
+15,102,The Godfather,4.0
+15,105,Fight Club,4.5
+16,102,The Godfather,3.0
+16,103,Pulp Fiction,3.5
+16,104,The Dark Knight,4.0
+16,106,Inception,2.5
+17,101,The Shawshank Redemption,4.0
+17,105,Fight Club,3.5
+17,106,Inception,4.
+

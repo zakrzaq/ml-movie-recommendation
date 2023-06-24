@@ -1,11 +1,12 @@
 # Import necessary libraries
+import os
 import pandas as pd
 from surprise import Reader, Dataset
 from surprise import SVD
 from surprise.model_selection import cross_validate
 
 # Load the movie ratings dataset
-ratings = pd.read_csv('movie_ratings.csv')
+ratings = pd.read_csv(os.path.join('data', 'movie_ratings.csv'))
 
 # Define the Reader object to parse the dataset
 reader = Reader(rating_scale=(1, 5))
@@ -37,6 +38,7 @@ for movie_id in trainset.all_items():
 recommendations.sort(key=lambda x: x[1], reverse=True)
 top_n = 10  # Number of top recommendations to display
 for movie_id, predicted_rating in recommendations[:top_n]:
+    test = ratings[ratings['movie_id'] == movie_id]
     movie_title = ratings[ratings['movie_id'] == movie_id]['movie_title'].iloc[0]
     print(f"Movie: {movie_title}, Predicted Rating: {predicted_rating}")
 
